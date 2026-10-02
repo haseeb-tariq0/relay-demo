@@ -57,16 +57,6 @@ The same ticket's testable contract: one assertion per criterion, each tagged by
 
 ![Ticket contract](docs/screenshots/04-ticket-contract.jpg)
 
-### Ships — the delivery ledger
-Everything that reached a pull request, grouped by day, with staging and PR links — the audit trail of what shipped and when.
-
-![Ships](docs/screenshots/05-ships.jpg)
-
-### Projects
-Each repo Relay operates on — GitHub repo, default branch, Slack channel, and its build/proof configuration.
-
-![Projects](docs/screenshots/06-projects.jpg)
-
 ### Sub-agents
 The specialist roster the planner and builder fan out to: cheap read-only explorers that scout the repo, a parallel batch-implementer, and adversarial review/security lenses — each with its own model tier, tool allow-list and turn budget.
 
@@ -86,11 +76,6 @@ Each pipeline stage runs its own Claude model (by alias, capability tier, or exa
 An embedded Claude Code CLI for hands-on work against any project's checkout, right from the dashboard.
 
 ![Build terminal](docs/screenshots/10-build-terminal.jpg)
-
-### Admin — access & roles
-Per-person roles (reporter / approver / admin) across Google sign-in and the mirrored Slack roster, so the right people can file, approve gates, or administer.
-
-![Admin](docs/screenshots/11-admin.jpg)
 
 ### Sign-in
 Access is limited to authorized accounts.
